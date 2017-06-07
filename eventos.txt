@@ -1,0 +1,22 @@
+ private void Validar1ActionPerformed(java.awt.event.ActionEvent evt) {  
+
+ if(Canica1_1.getIcon().toString().equals(Canica1_2.getIcon().toString())){
+            JOptionPane.showMessageDialog(this, "Imagenes repetidas");
+        }else{
+            JOptionPane.showMessageDialog(this, "Imagenes no repetidas ");
+            
+        }
+    }
+
+
+
+
+
+
+private void Validar1ActionPerformed(java.awt.event.ActionEvent evt) {
+       if(btnCelda3.getIcon().toString().equals(btnCelda4.getIcon().toString())&&(btnCelda3.getIcon().toString().equals(btnCelda2.getIcon().toString()))){
+    System.out.println("son iguakes"); 
+
+
+http://www.javamexico.org/blogs/op_phenix/programacion_juego_java
+
